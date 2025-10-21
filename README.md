@@ -1,4 +1,5 @@
 # rumbia32.github.io
+Rumbia32
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +54,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section class="hero-pattern relative py-32 text-white">
         <div class="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -67,7 +67,6 @@
             </div>
         </div>
     </section>
-
     <!-- Signature Dishes -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-6">
@@ -87,8 +86,7 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Dish 2 -->
+                                <!-- Dish 2 -->
                 <div class="menu-item bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                     <img src="http://static.photos/food/640x360/102" alt="Mee Bandung" class="w-full h-48 object-cover">
                     <div class="p-6">
@@ -102,8 +100,7 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Dish 3 -->
+                                <!-- Dish 3 -->
                 <div class="menu-item bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                     <img src="http://static.photos/food/640x360/103" alt="Nasi Briyani Gam" class="w-full h-48 object-cover">
                     <div class="p-6">
@@ -120,7 +117,6 @@
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-6">
@@ -139,7 +135,6 @@
             </div>
         </div>
     </section>
-
     <!-- Testimonials -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-6">
@@ -164,8 +159,7 @@
                     </div>
                     <p class="text-gray-600">"The Laksa Johor here reminds me of my grandmother's cooking. Absolutely authentic!"</p>
                 </div>
-                
-                <!-- Testimonial 2 -->
+                                <!-- Testimonial 2 -->
                 <div class="bg-gray-50 p-6 rounded-xl shadow">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -184,8 +178,7 @@
                     </div>
                     <p class="text-gray-600">"I come here every weekend for their Mee Bandung. The portion is generous and full of flavor."</p>
                 </div>
-                
-                <!-- Testimonial 3 -->
+                                <!-- Testimonial 3 -->
                 <div class="bg-gray-50 p-6 rounded-xl shadow">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -207,7 +200,6 @@
             </div>
         </div>
     </section>
-
     <!-- Call to Action -->
     <section class="py-16 bg-amber-600 text-white text-center">
         <div class="container mx-auto px-6">
@@ -223,7 +215,6 @@
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-6">
@@ -291,18 +282,15 @@
             </div>
         </div>
     </footer>
-
     <!-- Floating Order Button (Mobile) -->
     <div class="fixed bottom-6 right-6 md:hidden">
         <button class="bg-amber-600 hover:bg-amber-700 text-white p-4 rounded-full shadow-lg floating">
             <i data-feather="shopping-cart" class="w-6 h-6"></i>
         </button>
     </div>
-
     <script>
         feather.replace();
-        
-        // Simple animation for menu items
+                // Simple animation for menu items
         document.querySelectorAll('.menu-item').forEach((item, index) => {
             item.style.transitionDelay = ${index * 0.1}s;
         });
